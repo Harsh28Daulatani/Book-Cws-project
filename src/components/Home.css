@@ -1,0 +1,79 @@
+.home {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+    text-align: center; /* Align the content in the center */
+  }
+  .img1 {
+    width: 200px; /* Example width */
+    height: auto; /* Example height */
+    border: 2px solid #ff0000; /* Example border color */
+    border-radius: 10px;  
+  }
+  /* Books.css */
+  .books {
+    padding: 50px 0;
+  }
+  
+  .book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align book items */
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .book {
+    width: 250px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .book img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .book img1 {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .book h3 {
+    margin-top: 15px;
+  }
+  
+  .book p {
+    color: #666;
+  }
+  .features {
+
+    display: flex;
+    align-items: center; 
+    max-width: 600px; 
+    margin-left: 480px;
+  }  
+  .features img {
+    height: 80px;
+    width: 300px; 
+    margin-right: 200px;
+  }
+  
+  .book button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  }
+  
+  .book button:hover {
+    background-color: #0056b3;
+  }

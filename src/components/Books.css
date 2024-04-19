@@ -1,0 +1,89 @@
+/* Books.css */
+.books {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .books h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .books ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .books li {
+    margin-bottom: 10px;
+  }
+  
+  .books button {
+    display: block; /* Ensure each button appears on its own line */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .books button:hover {
+    background-color: #0056b3;
+  }
+  
+  .books form {
+    margin-top: 20px;
+  }
+  
+  .books label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .books input[type="text"],
+  .books input[type="email"],
+  .books select {
+    width: 45%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .books input[type="text"]:focus,
+  .books input[type="email"]:focus,
+  .books select:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .books select {
+    margin-bottom: 10px;
+  }
+  
+  .books button.confirmOrder {
+    background-color: #28a745;
+  }
+  
+  .books button.confirmOrder:hover {
+    background-color: #218838;
+  }
+  
+  /* Adjust order summary layout */
+  .books .confirmationItem {
+    display: flex;
+
+    margin-bottom: 5px;
+  }
+  
+  .books .confirmationItem .itemName {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+
+  
